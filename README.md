@@ -11,7 +11,7 @@ CVR Face Tracking Unity templates to be used with [VRCFaceTracking](https://gith
 
 ## Setup 
 
-1. Add/Import [VRCFury](https://vrcfury.com/download)
+1. Add/Import [SimpleAAS]([https://github.com/NotAKidoS/SimpleAAS/releases])
 2. Add/Import VRCFT Jerry's Templates from [Jerry's VRCFT Templates Listing](https://adjerry91.github.io/VRCFaceTracking-Templates/) Repository Listing URL https://Adjerry91.github.io/VRCFaceTracking-Templates/index.json
 3. Add face tracking prefab to your avatar located in ```Packages/VRCFT - Jerry's Templates/CVRPrefabs```
    * Uses the corresponding face tracking shapes prefab, if not sure look this [Face Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/118jo960co3Mgw8eREFVBsaJ7z0GtKNr52IB4Bz99VTA/edit?usp=sharing)
