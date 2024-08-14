@@ -1,12 +1,12 @@
 {
-  "name": "adjerry91.vrcft.templates",
-  "displayName": "VRCFT - Jerry's Templates",
-  "version": "6.1.1",
+  "name": "adjerry91.momofier.templates",
+  "displayName": "CVR FaceTracking",
+  "version": "1.0.0",
   "description": "Jerry's VRChat Face Tracking Unity templates to be used with VRCFaceTracking",
-  "url": "https://github.com/adjerry91/VRCFaceTracking-Templates",
+  "url": "https://github.com/Momofier/CVRFaceTracking",
   "author": {
     "name": "Adjerry91",
-    "url": "https://github.com/adjerry91"
+    "url": "https://github.com/momofier"
   },
   "gitDependencies": {},
   "vpmDependencies": {},
@@ -28,6 +28,6 @@
   "hideInEditor": false,
   "localPath": ".\\Packages\\adjerry91.vrcft.templates",
   "license": "MIT",
-  "unity": "2022.3",
+  "unity": "2021.3",
   "type": "template"
 }
