@@ -31,10 +31,10 @@ Post in ```#template-help``` for advance support on [Jerry's Face Tracking Disco
 * Driver, binary, and smooth layer require write defaults ON
 
 This is a modification of the VRCFaceTracking Template and is a WIP Port of it to CVR. It will Still contain most the Files the Base has with some of them removed
-Some Noted Bugs:
+# Some Noted Bugs:
 
-It's a Bit Sluggish on the Full Version
-Visemes are not set up yet
-The Lite Version is Untested, but should work
+* It's a Bit Sluggish on the Full Version
+* Visemes are not set up yet
+* The Lite Version is Untested, but should work
 
 
