@@ -10493,6 +10493,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: FTSmoothness
+    m_Type: 1
+    m_DefaultFloat: 1
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: FacialExpressionsDisabled
     m_Type: 4
     m_DefaultFloat: 0
@@ -21124,11 +21130,11 @@ AnimatorStateMachine:
   - {fileID: 2203293628722184093}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -1286515287185873219}
+  - first: {fileID: 7165272971087290940}
     second: []
   - first: {fileID: 6220538814706875614}
     second: []
-  - first: {fileID: 7165272971087290940}
+  - first: {fileID: -1286515287185873219}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 120, y: 40, z: 0}

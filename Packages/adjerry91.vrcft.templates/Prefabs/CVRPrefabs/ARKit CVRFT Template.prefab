@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5120214822341198170
+--- !u!1 &7408182200264645152
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6588987389535792497}
-  - component: {fileID: 6679353097298641437}
-  - component: {fileID: 612799088147171650}
-  - component: {fileID: 5617058700686711401}
-  - component: {fileID: 4053144937909735300}
+  - component: {fileID: 7408182200264645147}
+  - component: {fileID: 7408182200264645156}
+  - component: {fileID: 7408182200264645157}
+  - component: {fileID: 7408182200264645158}
+  - component: {fileID: 7408182200264645159}
   m_Layer: 0
   m_Name: ARKit CVRFT Template
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6588987389535792497
+  m_IsActive: 0
+--- !u!4 &7408182200264645147
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120214822341198170}
+  m_GameObject: {fileID: 7408182200264645152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,17 +35,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6679353097298641437
+--- !u!95 &7408182200264645156
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120214822341198170}
+  m_GameObject: {fileID: 7408182200264645152}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1e19fd7cf0b5ae04295c9d5cedb3f8b8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6700f89f8fa8af04ca849e271ef73c7a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -56,13 +56,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &612799088147171650
+--- !u!114 &7408182200264645157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120214822341198170}
+  m_GameObject: {fileID: 7408182200264645152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e197bf28ecd22dd4ea1528dbc81dfe70, type: 3}
@@ -84,7 +84,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  blinkGap: {x: 3, y: 8}
+  blinkGap: {x: 0.4, y: 8}
   blinkDuration: {x: 0.25, y: 0.35}
   useVisemeLipsync: 0
   visemeMode: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   avatarUsesAdvancedSettings: 1
   avatarSettings:
     settings:
-    - isCollapsed: 1
+    - isCollapsed: 0
       unlinkNameFromMachineName: 0
       isAutogenCollapsed: 0
       type: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
         defaultValue: {r: 0, g: 0, b: 0, a: 0}
         materialColorTargets: []
       dropDownSettings:
-        usedType: 0
+        usedType: 2
         currentEntryIndex: 0
         defaultValue: 0
         options: []
@@ -168,12 +168,12 @@ MonoBehaviour:
         defaultValue: {x: 0, y: 0, z: 0}
       name: Eye Tracking Active
       machineName: EyeTrackingActive
-    - isCollapsed: 1
+    - isCollapsed: 0
       unlinkNameFromMachineName: 0
       isAutogenCollapsed: 0
       type: 0
       toggleSettings:
-        usedType: 1
+        usedType: 3
         currentEntryIndex: 0
         defaultValue: 0
         useAnimationClip: 0
@@ -336,6 +336,62 @@ MonoBehaviour:
         defaultValue: {x: 0, y: 0, z: 0}
       name: Facial Expressions Disabled
       machineName: FacialExpressionsDisabled
+    - isCollapsed: 1
+      unlinkNameFromMachineName: 0
+      isAutogenCollapsed: 0
+      type: 6
+      toggleSettings:
+        usedType: 1
+        currentEntryIndex: 0
+        defaultValue: 0
+        useAnimationClip: 0
+        animationClip: {fileID: 0}
+        offAnimationClip: {fileID: 0}
+        gameObjectTargets: []
+      materialColorSettings:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: {r: 0, g: 0, b: 0, a: 0}
+        materialColorTargets: []
+      dropDownSettings:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: 0
+        options: []
+      sliderSettings:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: 0
+        materialPropertyTargets: []
+        useAnimationClip: 0
+        minAnimationClip: {fileID: 0}
+        maxAnimationClip: {fileID: 0}
+      joystick2DSetting:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: {x: 0, y: 0}
+        rangeMin: {x: 0, y: 0}
+        rangeMax: {x: 0, y: 0}
+      joystick3DSetting:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: {x: 0, y: 0, z: 0}
+        rangeMin: {x: 0, y: 0, z: 0}
+        rangeMax: {x: 0, y: 0, z: 0}
+      inputSingleSettings:
+        usedType: 1
+        currentEntryIndex: 0
+        defaultValue: 1
+      inputVector2Settings:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: {x: 0, y: 0}
+      inputVector3Settings:
+        usedType: 0
+        currentEntryIndex: 0
+        defaultValue: {x: 0, y: 0, z: 0}
+      name: FTSmoothness
+      machineName: FTSmoothness
     initialized: 1
     baseController: {fileID: 9100000, guid: ff926e022d914b84e8975ba6188a26f0, type: 2}
     baseOverrideController: {fileID: 0}
@@ -344,13 +400,13 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
---- !u!114 &5617058700686711401
+--- !u!114 &7408182200264645158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120214822341198170}
+  m_GameObject: {fileID: 7408182200264645152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 990f6f4efb7f4ec98ad99f6dff1bc6f6, type: 3}
@@ -361,13 +417,13 @@ MonoBehaviour:
   randomNum: 
   unityVersion: 2021.3.23f1
   cckVersion: 3.10:128
---- !u!114 &4053144937909735300
+--- !u!114 &7408182200264645159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5120214822341198170}
+  m_GameObject: {fileID: 7408182200264645152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdd70cfd94391f94bb959088337c91d6, type: 3}
@@ -378,4 +434,5 @@ MonoBehaviour:
   customControllers:
   - {fileID: 9100000, guid: ff926e022d914b84e8975ba6188a26f0, type: 2}
   - {fileID: 0}
-  - {fileID: 9100000, guid: 1e19fd7cf0b5ae04295c9d5cedb3f8b8, type: 2}
+  - {fileID: 9100000, guid: 6700f89f8fa8af04ca849e271ef73c7a, type: 2}
+  - {fileID: 9100000, guid: f2fc3717cf3f8394f933f21469a6ebbc, type: 2}

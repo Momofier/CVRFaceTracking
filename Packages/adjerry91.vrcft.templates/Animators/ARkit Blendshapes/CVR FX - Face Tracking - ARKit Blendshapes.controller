@@ -12079,6 +12079,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: FTSmoothness
+    m_Type: 1
+    m_DefaultFloat: 1
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: FacialExpressionsDisabled
     m_Type: 4
     m_DefaultFloat: 0
@@ -19281,11 +19287,11 @@ AnimatorStateMachine:
   - {fileID: -1869770365407114269}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -11648278012467552}
-    second: []
   - first: {fileID: 6248255935790760955}
     second: []
   - first: {fileID: 9203379168979040977}
+    second: []
+  - first: {fileID: -11648278012467552}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 120, y: 40, z: 0}
@@ -24379,13 +24385,13 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 0
+  m_SpeedParameterActive: 1
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 00edfc083643c224290a7c50028b5eb1, type: 2}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: FTSmoothness
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
