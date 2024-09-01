@@ -392,7 +392,7 @@ MonoBehaviour:
         defaultValue: {x: 0, y: 0, z: 0}
       name: Facial Expressions Disabled
       machineName: FacialExpressionsDisabled
-    - isCollapsed: 1
+    - isCollapsed: 0
       unlinkNameFromMachineName: 0
       isAutogenCollapsed: 0
       type: 6
@@ -437,7 +437,7 @@ MonoBehaviour:
       inputSingleSettings:
         usedType: 1
         currentEntryIndex: 0
-        defaultValue: 1
+        defaultValue: 1.1
       inputVector2Settings:
         usedType: 0
         currentEntryIndex: 0
