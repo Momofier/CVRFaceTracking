@@ -33,5 +33,6 @@ Post in ```#template-help``` for advance support on [Jerry's Face Tracking Disco
 This is a modification of the VRCFaceTracking Template and is a WIP Port of it to CVR. It will Still contain most the Files the Base has with some of them removed
 # Some Noted Bugs:
 
-* It's a Bit Sluggish on the Full Version(Should be fixed with Adjustments to the FT Smoothness Slider(Higher is Quicker))
-* The Lite Version is Untested, but should work
+* Visemes don't work on AR kit: Lite and Full
+* cheek puff doesn't work on Full
+* Tongue doesn't work on Full
